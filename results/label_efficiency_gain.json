@@ -1,0 +1,7 @@
+{
+  "definition": "Smallest tested patient fraction whose mean AUROC >= scratch 100% AUROC; descriptive, not statistical equivalence",
+  "scratch_100_auroc": 0.9076873274718624,
+  "pretrained_min_tested_fraction": 0.25,
+  "label_reduction": 0.75,
+  "gain_factor": 4.0
+}

@@ -1,0 +1,14 @@
+{
+  "scratch": {
+    "explained_variance_ratio": [
+      0.26728737354278564,
+      0.2277747243642807
+    ]
+  },
+  "pretrained": {
+    "explained_variance_ratio": [
+      0.1275835484266281,
+      0.06637532263994217
+    ]
+  }
+}

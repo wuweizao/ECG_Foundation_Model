@@ -1,0 +1,367 @@
+{
+  "runs": [
+    {
+      "model": "scratch",
+      "fraction": 0.01,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "50648a117878c2f96dfdba0159a8a95c9f14395074e9d13fcf4b0dbab19b6dc0",
+      "config": "a652776cb9e1f759d4957f0a2b8e101cf1369ec976fc9201f8c015e6947ae802",
+      "thresholds": "0ca633d713693d6d734f6e17119b9460c9d21dfc7c5414bd3b1a0d6628a8f9bf"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.01,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "74b135f4c68edc71ed7125ccfddfec0169ac54cb81887b19933b5474cac0db98",
+      "config": "6c16878ab3a2075592494d1d571e581f3b4b03e6facb3b792fa042590815f42f",
+      "thresholds": "1dc7f109ddc4c87b6e43e83638da750945cf5cce0ea669c121b7cc15d8f1da75"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.01,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "1cf81a8fba1872dc318c157d5c628d9c7c1938c26318dcbaff550b65e494262d",
+      "config": "5055842449356fb45187b2b7c0076babc7bc5de59f92bf9c3423151287bf4055",
+      "thresholds": "ff5d5a9f4fa6fd838d51a108523643c629241fb680f52b9b8fafcf9ad9f91cb0"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.01,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "dcdf050ec29bdf0471681b5463a34f145ede0ac7ca6c91e8509734a05be3c578",
+      "config": "afff49de540f05ab551e05a97ef1094778f3f4cda2a079608ee17fc48702846b",
+      "thresholds": "83743f44784e6bbea0abea3cccd7d64235dbcc00eb01ec766e0f622a752895c7"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.01,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "b963c17407269fcb546093b24bdfdc1a049b9c68013470cc31de7b81a250f7fd",
+      "config": "ce37fb537582fc923c3c617f720676dc470e210e8d89e4e56f965905d3a41d7b",
+      "thresholds": "bf3ad15a3e4109b3a0d8c7ce01069ad48ddb10616583fc2ce7a75a111fff0544"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.01,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "99855d014ef3a0dbaf7e3cb100a083fb956652bd99077e115031367cf1b647bd",
+      "config": "a4ec053ffb0499587e4f4f10717a7ba3e58bfe557e60c805b8bb0fa3d85f1325",
+      "thresholds": "0ba39e4098d11bcf96bf4445a23235c7c4415ace24a7db6865821b09e3a499fb"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.05,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "6508849f94329f01c1e73a4dac9f424d4f5fbec8af78fe5a4205b17208761211",
+      "config": "3575f6baf3bbfd4047a5db20ea3f2b5873284d89a7835ba08d6fcc44f5e3573c",
+      "thresholds": "20e8e5a1f528abb443fa837c5a22759f8ae55fed78f93b1e4458217593655457"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.05,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "0d171d8dff4a41c3dd2edd3820ed84ffdba244739a3d0acf86e99883551c15ee",
+      "config": "6a542e36a879be53d538e76ef9f2ec34190c091bb3f76518a4b6a53b2d4e4679",
+      "thresholds": "931676129d9eceb4b2ddf535f1438400a4b3e7f9d70e3301f4f9b87dd79e928d"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.05,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "0feea23b7ebd97d1e4a07e3a9b0b9162396c4bc733a912af201dea8d25ca9a88",
+      "config": "219bace3f40a207b13b96e22861f9de6bf7b935d7dfb7d5efc5879df96648bbe",
+      "thresholds": "c6c371ba5b01eefaf4f92b14a54a6bca950a8c323160de55b856911db9e0ee95"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.05,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "2bd5a3970ec8ff878b7ed2b519a5d0197cf682618e837dcff170d8bf8db78eee",
+      "config": "e40de379304eded558e47108d384f94c53aee0403e21cff9db2f2d3d15e04f79",
+      "thresholds": "7077042c83192d2ffce4ce43d137fc2d8eb2be4401733682a5be5435959a15d7"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.05,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "f55f98eebab0bc6f1be3bc8dc4a2d9d71c47f38da972088d751992c86a831fc4",
+      "config": "57fd8a6040308316da1825e442da32f4da7f8069a4d47c0b687ada393b6f5065",
+      "thresholds": "db57e633f16248c584b4b545fa77134560bbfe8a3da96ce0eb3b6d845794a4ad"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.05,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "edb4ee3aeb5bc85a8010d00284f34b56abe817a2a8660946e48e8cc3816b60d1",
+      "config": "81352aabc9b54fc4ab48db9640e6b72d1ddd364f495327871fa55c7949d4c44d",
+      "thresholds": "18c076ed68ce7d48c312ddf76ed29dec61f7e639dc82b518c83620dd49690852"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.1,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "01dce69c08482c104cbfd284d5af1ad5db989e20e3bb9f514fe808fd61ad74a2",
+      "config": "c8935b30828bbbeb6abcf46969e7eeed85e6f24aad6437ba59db4e9c3480e4e9",
+      "thresholds": "05634e4c877a0a273aa01d2116ed33cbc4dc47d1ca6849bf59c24e303f3e9d7d"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.1,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "6cf49d083783c5d54f0f7d8fbd04d34b03b9ae7d47d608fa172b510ca036f46a",
+      "config": "ea31c84c2cb711e1567d272003c4fcb9a12407e6d6f4efa8ee4156cbd909bd5b",
+      "thresholds": "04a56c65251ae1aa10b0e81dab582bb7eb124f22fdf975d5a3583466c9c812c0"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.1,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "efe219d19f7ba32cd32e95163faf828d7684a9e35ee5359b7236128491b5d948",
+      "config": "04b51656d6592b12023451b681f203378fee708bacc719ebf33aa10d2a7e47b3",
+      "thresholds": "eb9b773be5abca83f03cff2cd41c32e95a4554e5150c952c174ef5130dbf6818"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.1,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "28984dcc57f3543bb53659e148eabd110de8fc3a1f2b9910d56cba8b54996746",
+      "config": "f498707a0d00b1dd37e3de0c8c0dc9a4bd5826ec8c2473fc5568b102968e2083",
+      "thresholds": "6bf904fe1602d5bba1e62a8d06139bf2bed5a550c6da5a415c11015e174f1a0e"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.1,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "2a6f258d77b0003cc6eb5e97dba8f9915da96464634aa3784ab8ac694181a006",
+      "config": "18a828c0604afac2438b33f3a552ba80d8f66c05d4ae324458569392e513a3c9",
+      "thresholds": "2048a61818ccbf4d63b47c55534f6eaff9dd929b2b62c8ae013343273b8b7c22"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.1,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "12da39d7844d2668a76871fdc1260ba886fb0d8757bb1c6cd8f11e72eab1fef2",
+      "config": "a0ff3a6b66fb8f979bc9d7cd55bec8b4d29555a9ea6fca6fd5d1793955c5aa7d",
+      "thresholds": "6ebc5194ab86bc08401acd87cf3279d9d4f7406f333b5fe1872e64e096e30de8"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.25,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "40ed2e508ff6d9d5a35160d7ccd39815dc310faf2f496ccd18b786e90fddc25f",
+      "config": "cf37e5ab00fe51be3f2dec475f1307874cd85c08053f97a0e0e47ad97718c7fe",
+      "thresholds": "d0c584fdd06b0fa1b0c0240a09f83ef27a33c1461329cf7c5b903684d00b9b7f"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.25,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "5db8a86d7b2c0592aefcc64b4dfae5aa9a797a7c3d54f9dcaac40209291394b6",
+      "config": "89e93d09211c4a47a27c7256c668cedb80a09be0391f4fb6ef9f5c0f66e5c0c6",
+      "thresholds": "4c05aeddc1e722ff03a86daa789b93bcb74c43d5fad418e790be420d4ea37f2b"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.25,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "5f5ea1b6a9a71177b8183f8c0d46344b7a03339991e714c594d5df91843b80ed",
+      "config": "ce8c37d24a40302b8f28cf6b63ebbfac7d3245972b0b27261ff8d0370b7f9d46",
+      "thresholds": "ddca384fb9281e29c00279c7cfbbd8cd5026a6d5334ed204dd79acceaf81e1bd"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.25,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "e7922f8c8ef3c439e8fb45b93ffa26ccda39faf6ba400ed866b457a50eb85914",
+      "config": "5135006d6d4077696f36891de17ec04a5f04825a2a8b1a6c65a8ea10cf13bdda",
+      "thresholds": "90eefde23ca4163e06c7b9b18dbe93b484dbf2acbd8a9cb5a85ddcecbc91fc76"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.25,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "a75a19527b6db5e6def8e678141259f981db5979d0a7ac7c314835b36f1e380c",
+      "config": "efe4d72df37f6dee5ff893177725ece0d841cf4a4db78d5e11ebd6738d5ce31b",
+      "thresholds": "9a5f3437487c33800dd7e1978a537d7b5da1341f4377ff1187eb7fd28be99d52"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.25,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "04746e5d050274e5a87fc426bb5388216d121b0b2c5432ce482bb1049950ef74",
+      "config": "ecd5d4382c68319f65db3febe97a079b20bb3dd455ff9820eb589bc8c72947f1",
+      "thresholds": "2ad197c27cce0dfa0ec67404158857376e95e36657757d9d34da2ea660991470"
+    },
+    {
+      "model": "scratch",
+      "fraction": 1.0,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "02d41bbd7a883ed4be798ac07abdb43153425258630b04d3d59c668bb2ab42eb",
+      "config": "da50a7f7ac620aea7ee5301b9503ba691e0bb3ee366ec04ab7fb218191597379",
+      "thresholds": "eeb828910b0011d0ef3b304defd6f2efaafd94517acbaf0adbed292febabeada"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 1.0,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "4fb3536a1f9639d218099e1993834c3df92cbdede20d582e0b01af855f6e6d4b",
+      "config": "eef424d0a9ee80ceb1aa5e69a8955ec585b170523ebb9e997a9d2d55a1681197",
+      "thresholds": "9a19610d17aa0ba80fa293c806216ad28bc41bc5f60d521595977c97d3b43375"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.05,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "e2e4c704a69fdb8e71df350e9c74b10686f7fc07a279551ad45376da6495fd37",
+      "config": "c754439bdc7efc2dcdc0d8058e621cb2970ff235608a216ef9a8236e12e3ac06",
+      "thresholds": "5907fc3a62983066ac4144d0f070edda20f5570d597522decde533831562d8c1"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.05,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "43dad54d230dde4afc7321f2049905d267eb3e8be780e45db3dad0a25e834798",
+      "config": "ae072464662e9422a6be4ffc24beb4e123623e4e9b7623256ec18e8a44134a6b",
+      "thresholds": "f0a094b3593544ffae12cffab789bae871e57ce4a1059024a28e533bc3263b1c"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.05,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "c878d279e0479d98034125e540b124cdb2e6fa0fc6d330023ea320d039f0e7bb",
+      "config": "1011d6f69b5945dd78256a6b7c7190572dd1a032745f156755f0177bcc10491b",
+      "thresholds": "b2767839871202a3db7c25870f77231d3fe949118d1353653a2cf02d3a83a768"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.1,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "09f71ea252c9bfd737aeab0ee106947cb449aa0d42b2535623205bd50972d80a",
+      "config": "73f4a207dcf3944a83e0243831d8043fd29cd5c2b8f4e2ae096a8880322a60df",
+      "thresholds": "e70ad07e8fbba1b689788686c22bc89a1556dff219d6f271af580593cce66bd2"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.1,
+      "seed": 52,
+      "root": "runs",
+      "group": "main",
+      "weights": "381ab8b1a1382980ef13fde6e9f4215650af58b5df9defd41c80bd6c5aa84f17",
+      "config": "6c843a27ef08ccc3981baa00a28386d6ce0c233fc5402ee928e16ddbcbdb40f4",
+      "thresholds": "9717a244d3fbf7c19fb481f271c03357683096aa59ae382aa800b59d53ff0230"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 0.1,
+      "seed": 62,
+      "root": "runs",
+      "group": "main",
+      "weights": "7a31e2a6a17e7006714f8ad8c33e58cad8371c74c60519ab7379ca188477e792",
+      "config": "cb1495f47c7578052c4ea437018157ad2961627d72d8fef1e4705933261d0694",
+      "thresholds": "7e299c7ed36dea9b45d0ffb81f9f8ae96131e74950b12a43746142949138f64c"
+    },
+    {
+      "model": "linear_probe",
+      "fraction": 1.0,
+      "seed": 42,
+      "root": "runs",
+      "group": "main",
+      "weights": "a06d4559e9d14962396c9078585e570dfdb86a91c66c4a700913931571f855d4",
+      "config": "6443792766f55235f2e4c4dc41be86babcb5bd0c7fd8b76c974da92536d4eeea",
+      "thresholds": "e827f07f115e63e16f1ab7c012a01a8070832bc48883ea37c3e4384821d0baf0"
+    },
+    {
+      "model": "scratch",
+      "fraction": 0.01,
+      "seed": 42,
+      "root": "runs/convergence",
+      "group": "convergence",
+      "weights": "50648a117878c2f96dfdba0159a8a95c9f14395074e9d13fcf4b0dbab19b6dc0",
+      "config": "bcd142c3b40909d2f23ab24578a623fc4e04b5730154cda8e045a8ff1753591d",
+      "thresholds": "0ca633d713693d6d734f6e17119b9460c9d21dfc7c5414bd3b1a0d6628a8f9bf"
+    },
+    {
+      "model": "pretrained",
+      "fraction": 0.01,
+      "seed": 42,
+      "root": "runs/convergence",
+      "group": "convergence",
+      "weights": "74b135f4c68edc71ed7125ccfddfec0169ac54cb81887b19933b5474cac0db98",
+      "config": "1651ef6eb7cffb69d9ab9cf28e8b97880c26b420d5b4024fd5e6e4da9d37653e",
+      "thresholds": "1dc7f109ddc4c87b6e43e83638da750945cf5cce0ea669c121b7cc15d8f1da75"
+    }
+  ],
+  "test_manifest": "db89500fef859ef39f293ecc1c6831b016a7517436dadf1956a0683683f37e23",
+  "code_sha256": {
+    "src/dataset.py": "c32aeed6a31b19910d4f6e3a27acda7d4a9f851eb71e760f4655fa4d049546e7",
+    "src/labels.py": "fc4053114005a74ea2d005259cf0f0c3a8ed8edf661aa874b326b2bc0bdf8ad9",
+    "src/models.py": "af2837117203c4f34af837b9ed011fb0c17bd4cd692a4978f99561cae3832631",
+    "src/train.py": "b976b947ecd93c3abb5486e0da36eccc7393b3d9e8cba9eeeb0427d151de44ef",
+    "src/metrics.py": "378c6103c158010d271bd9af22da180e8826375532675114151968ee2133aff2",
+    "src/features.py": "14c8d4ea14f37717948177d8ad52babed905065751e9cf9c6355cbf01bead162",
+    "src/plan.py": "eb1dae859438087857711ddd87b84aa997368cdcf6109d16124748270431ed42",
+    "src/utils.py": "ed5c983385b0b6bf82c7c6d198a0dda9714c1593bd664da81118d67d24c2fc32",
+    "src/evaluate.py": "7c4502f12b4eea338b8c5c308caf5743b9d2ee9f3116a793ba1afcc77bb1060f",
+    "vendor/ECGFounder/net1d.py": "a693cfeeb31253331738ad6a66e25de72cdca3db9e428b025bdcc5a2fcb37634"
+  }
+}

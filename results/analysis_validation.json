@@ -1,0 +1,9 @@
+{
+  "runs_checked": 35,
+  "per_class_rows": 165,
+  "independent_rank_auroc": true,
+  "independent_stepwise_average_precision": true,
+  "independent_confusion_metrics": true,
+  "sample_sd_verified": true,
+  "max_absolute_discrepancy": 2.220446049250313e-16
+}

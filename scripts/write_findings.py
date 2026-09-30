@@ -52,12 +52,13 @@ def main():
         lines.append(f'| {fraction:.0%} | {value(select("pretrained",fraction),"auroc")} | {value(select("linear_probe",fraction),"auroc")} |')
     lines += ['', '## 噪声与校准', '',
               '以下增强比较固定为 10%、seed 42。噪声添加在预处理之后；两模型使用相同的逐记录扰动，不重新选择阈值。', '',
-              '| 条件 | Scratch AUROC | Pretrained AUROC |', '|---|---:|---:|']
+              '| 条件 | Scratch AUROC | Pretrained AUROC | Scratch 下降量 | Pretrained 下降量 |', '|---|---:|---:|---:|---:|']
     for kind,level,label in [('clean',0,'Clean'),('gaussian',5,'Gaussian 5 dB'),('dropout',6,'Drop 6 leads')]:
         subset = robustness[(robustness.corruption==kind)&(robustness.level==level)]
-        av = subset[subset.model=='scratch'].iloc[0].macro_auroc
-        bv = subset[subset.model=='pretrained'].iloc[0].macro_auroc
-        lines.append(f'| {label} | {av:.4f} | {bv:.4f} |')
+        av = subset[subset.model=='scratch'].iloc[0]
+        bv = subset[subset.model=='pretrained'].iloc[0]
+        lines.append(f'| {label} | {av.macro_auroc:.4f} | {bv.macro_auroc:.4f} | {av.auroc_drop:.4f} | {bv.auroc_drop:.4f} |')
+    lines += ['', '下降量为 Clean AUROC 减去扰动 AUROC；同时查看绝对性能和下降幅度。']
     subset = metrics[(metrics.fraction==.1)&(metrics.seed==42)]
     a,b = subset[subset.model=='scratch'].iloc[0],subset[subset.model=='pretrained'].iloc[0]
     lines += ['', f'干净测试集 Brier Score：Scratch {a.brier:.4f}，Pretrained {b.brier:.4f}；Macro ECE：{a.macro_ece:.4f} / {b.macro_ece:.4f}。两者均越低越好。这些是当前标签与队列上的概率校准描述，不能据此推断临床部署可靠性。', '',

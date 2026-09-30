@@ -1,0 +1,6 @@
+{
+  "stage": "complete",
+  "main_runs": 26,
+  "linear_probes": 7,
+  "convergence_audits": 2
+}

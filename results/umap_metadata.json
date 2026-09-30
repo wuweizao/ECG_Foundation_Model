@@ -1,0 +1,14 @@
+{
+  "scratch": {
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "cosine",
+    "seed": 42
+  },
+  "pretrained": {
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "cosine",
+    "seed": 42
+  }
+}

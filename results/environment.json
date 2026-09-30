@@ -1,0 +1,15 @@
+{
+  "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_memory_gib": 15.92,
+  "driver": "610.62",
+  "training_precision": "BF16 autocast with float32 parameters",
+  "deterministic_algorithms": true,
+  "cudnn_benchmark": false,
+  "timing_note": "Some independent conditions scheduled concurrently; wall times are not a controlled speed benchmark",
+  "protocol_amendment_commit": "4f86ee9"
+}
