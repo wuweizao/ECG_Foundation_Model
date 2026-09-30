@@ -1,0 +1,10 @@
+{
+  "official_checkpoint_verified": true,
+  "official_source_commit": "04edac702b61c91face519774ddcc0cd712fef23",
+  "patient_split_disjoint": true,
+  "all_subsets_whole_patient": true,
+  "classifier_initialization_paired": true,
+  "linear_probe_freeze_verified": true,
+  "preprocessing_matches_official_downstream": true,
+  "parameters": 30670389
+}

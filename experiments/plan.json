@@ -1,0 +1,167 @@
+[
+  {
+    "model": "scratch",
+    "fraction": 0.01,
+    "seed": 42
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.01,
+    "seed": 42
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.01,
+    "seed": 52
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.01,
+    "seed": 52
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.01,
+    "seed": 62
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.01,
+    "seed": 62
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.05,
+    "seed": 42
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.05,
+    "seed": 42
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.05,
+    "seed": 52
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.05,
+    "seed": 52
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.05,
+    "seed": 62
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.05,
+    "seed": 62
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.1,
+    "seed": 42
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.1,
+    "seed": 42
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.1,
+    "seed": 52
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.1,
+    "seed": 52
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.1,
+    "seed": 62
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.1,
+    "seed": 62
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.25,
+    "seed": 42
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.25,
+    "seed": 42
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.25,
+    "seed": 52
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.25,
+    "seed": 52
+  },
+  {
+    "model": "scratch",
+    "fraction": 0.25,
+    "seed": 62
+  },
+  {
+    "model": "pretrained",
+    "fraction": 0.25,
+    "seed": 62
+  },
+  {
+    "model": "scratch",
+    "fraction": 1.0,
+    "seed": 42
+  },
+  {
+    "model": "pretrained",
+    "fraction": 1.0,
+    "seed": 42
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.05,
+    "seed": 42
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.05,
+    "seed": 52
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.05,
+    "seed": 62
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.1,
+    "seed": 42
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.1,
+    "seed": 52
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 0.1,
+    "seed": 62
+  },
+  {
+    "model": "linear_probe",
+    "fraction": 1.0,
+    "seed": 42
+  }
+]

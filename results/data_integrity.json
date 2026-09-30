@@ -1,0 +1,7 @@
+{
+  "source": "https://physionet.org/files/ptb-xl/1.0.3/SHA256SUMS.txt",
+  "release": "1.0.3",
+  "checksum_manifest_sha256": "b7224b92b341511ec3ceb13dc6652079b2c36a06504bcb49506f157f51dc695d",
+  "files_verified": 42778,
+  "all_retained_waveforms_verified": true
+}
