@@ -9,6 +9,7 @@ os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG', ':4096:8')
 import numpy as np
 import pandas as pd
 import torch
+from filelock import FileLock
 from torch.utils.data import DataLoader
 
 from .dataset import ECGDataset
@@ -31,6 +32,15 @@ def predict(model, loader, device, amp=True):
 
 
 def train(config_path, fraction, seed, local_path='configs/local.json', output_root='runs'):
+    config = read_config(config_path)
+    label = 'linear_probe' if config['linear_probe'] else config['initialization']
+    run = Path(output_root) / f'{label}_f{fraction:g}_s{seed}'
+    run.mkdir(parents=True,exist_ok=True)
+    with FileLock(str(run/'.training.lock')):
+        return _train_unlocked(config_path,fraction,seed,local_path,output_root)
+
+
+def _train_unlocked(config_path, fraction, seed, local_path, output_root):
     config = read_config(config_path)
     local = json.loads(Path(local_path).read_text())
     label = 'linear_probe' if config['linear_probe'] else config['initialization']

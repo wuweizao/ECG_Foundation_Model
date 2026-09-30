@@ -30,13 +30,14 @@ def freeze():
         entries.append(dict(**row, weights=sha256(run / 'best.pt'),
                             config=sha256(run / 'config.json'), thresholds=sha256(run / 'thresholds.json')))
     code_files = ['src/dataset.py','src/labels.py','src/models.py','src/train.py','src/metrics.py',
-                  'src/features.py','src/plan.py','src/utils.py','vendor/ECGFounder/net1d.py']
+                  'src/features.py','src/plan.py','src/utils.py','src/evaluate.py','vendor/ECGFounder/net1d.py']
     lock = dict(runs=entries, test_manifest=sha256('data/manifests/test.csv'),
                 code_sha256={name:sha256(name) for name in code_files})
     target = Path('experiments/test_lock.json')
     if target.exists() and json.loads(target.read_text()) != lock:
         raise RuntimeError('Frozen test experiment differs; do not retune after test access')
     save_json(target, lock)
+    save_json('results/test_lock.json', lock)
     return entries
 
 

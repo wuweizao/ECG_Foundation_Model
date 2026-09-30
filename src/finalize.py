@@ -18,9 +18,11 @@ def main():
         ('robustness',['-m','src.robustness']),
         ('calibration',['-m','src.calibration']),
         ('extension_figures',['-m','src.extension_figures']),
+        ('saliency',['-m','src.explain']),
         ('paired_patient_bootstrap',['-m','src.bootstrap','--replicates',str(args.bootstrap_replicates)]),
         ('independent_validation',['scripts/validate_results.py']),
         ('notebook',['scripts/build_notebook.py']),
+        ('research_readout',['scripts/write_findings.py']),
     ]
     for stage,command in steps:
         save_json('results/status.json',dict(stage=stage))

@@ -74,6 +74,21 @@ def main():
     fig.text(.125,.9,'PTB-XL fold 10 | mean ± sample SD across 3 matched seeds',fontsize=10)
     fig.subplots_adjust(top=.82,wspace=.1)
     save(fig,'per_class')
+    fig,ax = plt.subplots(figsize=(7,4.7))
+    for model,offset,marker in [('pretrained',-.08,'o'),('linear_probe',.08,'D')]:
+        part = stats[(stats.model==model)&stats.fraction.isin([.05,.1,1.])].sort_values('fraction')
+        x = np.arange(3)+offset
+        ax.scatter(x,part.auroc_mean,marker=marker,color=COLORS[model],label=NAMES[model],s=45)
+        valid = part.auroc_sd.notna().to_numpy()
+        ax.errorbar(x[valid],part.auroc_mean.to_numpy()[valid],yerr=part.auroc_sd.to_numpy()[valid],
+                    fmt='none',capsize=4,color=COLORS[model])
+    ax.set(xticks=np.arange(3),xticklabels=['5%','10%','100%'],ylim=(0,1.02),
+           xlabel='Labeled training patients',ylabel='Macro AUROC')
+    ax.set_title('Frozen encoder vs full fine-tuning',loc='left',pad=30)
+    ax.text(0,1.04,'PTB-XL fold 10 | mean ± sample SD; n=3 at 5/10%, n=1 at 100%',transform=ax.transAxes,fontsize=9)
+    ax.grid(axis='y',alpha=.2)
+    ax.legend(frameon=False,loc='lower right')
+    save(fig,'linear_probe')
     reference = stats[(stats.model=='scratch') & (stats.fraction==1)].auroc_mean.iloc[0]
     eligible = stats[(stats.model=='pretrained') & (stats.auroc_mean >= reference)].sort_values('fraction')
     gain = {'definition': 'Smallest tested patient fraction whose mean AUROC >= scratch 100% AUROC; descriptive, not statistical equivalence',

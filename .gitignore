@@ -17,5 +17,13 @@ configs/local.json
 .notebook_runtime/
 .analysis_runtime/
 .numba_cache/
+experiments/test_lock.json
+# Record-level medical-derived visuals stay local; aggregate figures are publishable.
+figures/ecg_example.*
+figures/preprocessing.*
+figures/pca.*
+figures/umap.*
+figures/saliency.*
+results/saliency_metadata.json
 .jupyter_runtime/
 .ipython/
