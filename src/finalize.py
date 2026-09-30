@@ -12,6 +12,7 @@ def main():
     parser.add_argument('--bootstrap-replicates',type=int,default=2000)
     args = parser.parse_args()
     steps = [
+        ('probe_verification',['scripts/verify_linear_probes.py']),
         ('training_audit',['-m','src.training_audit']),
         ('locked_test',['-m','src.evaluate','--freeze-and-evaluate']),
         ('main_figures',['-m','src.report']),

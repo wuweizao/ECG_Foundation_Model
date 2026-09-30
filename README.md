@@ -71,6 +71,15 @@ python -m src.bootstrap --replicates 2000
 
 ## 输出
 
+完成后的 `notebooks/demo.ipynb` 可直接查看已执行输出。仅重建结果展示 notebook 时不需要原始波形或模型权重：
+
+```powershell
+pip install -r requirements-notebook.txt
+python scripts/build_notebook.py
+```
+
+在全部训练完成后，`python -m src.finalize` 可一次生成锁定测试、图表、bootstrap、独立指标复算和 notebook（需上述 notebook 依赖）。PCA/UMAP 按增强分析命令单独生成。
+
 ```text
 configs/       # 两组主实验及 linear probe 配置
 src/           # 数据、训练、锁定测试、统计和可视化

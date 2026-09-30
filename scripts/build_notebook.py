@@ -47,7 +47,11 @@ def main():
     km._kernel_spec = KernelSpec(argv=[sys.executable,'-m','ipykernel_launcher','-f','{connection_file}'],
                                 display_name='ECG Foundation',language='python')
     client = NotebookClient(notebook,timeout=120,resources={'metadata':{'path':str(ROOT)}},km=km)
-    client.execute()
+    try:
+        client.execute()
+    finally:
+        if km.has_kernel:
+            km.shutdown_kernel(now=True)
     nbformat.validate(notebook)
     nbformat.write(notebook,target)
     print('Notebook executed top-to-bottom:',target)
