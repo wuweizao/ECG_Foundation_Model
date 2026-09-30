@@ -1,0 +1,5 @@
+{
+  "frozen_feature_head_matches_full_model": true,
+  "precision": "bfloat16",
+  "maximum_logit_difference": 0.0
+}

@@ -12,7 +12,8 @@
 - 1–25% 使用 seeds 42/52/62；100% 使用 seed 42，共 **26 次主实验**。
 - 5%、10%、100% 增加预训练编码器冻结的 linear probe，共 **7 次策略对照**。
 - 主指标 Macro AUROC、Macro AUPRC；同时报告 Macro/Micro F1、Sensitivity、Specificity、逐类结果。
-- checkpoint、早停和逐类 F1 阈值仅由验证集决定。33 次训练完成后锁定配置、权重和阈值，再统一打开测试集。
+- checkpoint、早停和逐类 F1 阈值仅由验证集决定。33 次主实验/探测加 2 次预算敏感性对照全部完成后锁定配置、权重和阈值，再统一打开测试集。
+- 预算敏感性对照：1%、seed 42，两模型同为最多 100 轮、patience 15。由验证日志触发并在测试前登记，单独报告，不替换 30 轮主曲线。
 
 完整方法和边界见 [实验协议](experiments/PROTOCOL.md)。数据计数、类别分布和各子集哈希见 [数据审计](results/data_audit.json)。本项目没有使用模拟性能填充结果；正式指标由锁定后的实际预测生成。
 
@@ -31,6 +32,7 @@ python -m src.prepare --workers 8
 python -m unittest discover -s tests -v
 python scripts/verify_artifacts.py
 python -m src.run_suite --train-only
+python -m src.convergence
 python -m src.evaluate --freeze-and-evaluate
 python -m src.report
 ```

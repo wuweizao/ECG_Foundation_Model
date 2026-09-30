@@ -19,9 +19,10 @@ def main():
         subprocess.run([sys.executable, '-m', 'src.train', '--config', f'configs/{row["model"]}.yaml',
                         '--fraction', str(row['fraction']), '--seed', str(row['seed'])], check=True)
     if not a.train_only:
+        subprocess.run([sys.executable, '-m', 'src.convergence'], check=True)
         subprocess.run([sys.executable, '-m', 'src.evaluate', '--freeze-and-evaluate'], check=True)
         subprocess.run([sys.executable, '-m', 'src.report'], check=True)
-    save_json('results/status.json', {'stage': 'trained' if a.train_only else 'complete', 'runs': len(planned)})
+    save_json('results/status.json', {'stage': 'trained' if a.train_only else 'complete', 'main_and_probe_runs': len(planned)})
 
 
 if __name__ == '__main__':

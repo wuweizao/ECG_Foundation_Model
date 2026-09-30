@@ -19,8 +19,10 @@ from .utils import save_json, seed_all, sha256
 
 def freeze():
     entries = []
-    for row in conditions():
-        run = Path('runs') / run_name(row)
+    planned = [dict(**row,root='runs',group='main') for row in conditions()]
+    planned += [dict(model=model,fraction=.01,seed=42,root='runs/convergence',group='convergence') for model in ['scratch','pretrained']]
+    for row in planned:
+        run = Path(row['root']) / run_name(row)
         if not (run / 'complete.json').exists():
             raise RuntimeError(f'Unfinished run: {run}')
         if json.loads((run/'complete.json').read_text())['best_sha256'] != sha256(run/'best.pt'):
@@ -47,9 +49,9 @@ def main():
     local = json.loads(Path('configs/local.json').read_text())
     frame = pd.read_csv('data/manifests/test.csv')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    rows, per_class, provenance = [], [], []
+    rows, per_class, provenance, convergence = [], [], [], []
     for entry in entries:
-        run = Path('runs') / run_name(entry)
+        run = Path(entry['root']) / run_name(entry)
         config = json.loads((run / 'config.json').read_text())['config']
         thresholds = json.loads((run / 'thresholds.json').read_text())
         output = run / 'test_predictions.npz'
@@ -68,13 +70,20 @@ def main():
         metrics, classes = compute_metrics(predictions['y'], predictions['p'], thresholds)
         key = {k: entry[k] for k in ['model', 'fraction', 'seed']}
         train_frame = pd.read_csv(f'data/manifests/train_f{entry["fraction"]:g}_s{entry["seed"]}.csv')
-        rows.append(dict(**key, training_patients=train_frame.patient_id.nunique(),training_records=len(train_frame),
-                         test_patients=frame.patient_id.nunique(),test_records=len(frame),**metrics))
-        provenance.append(dict(**key,predictions_sha256=sha256(output),checkpoint_sha256=entry['weights']))
-        per_class.extend(dict(**key, **c) for c in classes)
+        result = dict(**key, training_patients=train_frame.patient_id.nunique(),training_records=len(train_frame),
+                      test_patients=frame.patient_id.nunique(),test_records=len(frame),**metrics)
+        if entry['group']=='main':
+            rows.append(result)
+            per_class.extend(dict(**key, **c) for c in classes)
+        else:
+            complete = json.loads((run/'complete.json').read_text())
+            convergence.append(dict(**result,epoch_budget=config['epochs'],epochs_completed=complete['epochs'],
+                                    best_validation_macro_auroc=complete['best_validation_macro_auroc']))
+        provenance.append(dict(**key,group=entry['group'],predictions_sha256=sha256(output),checkpoint_sha256=entry['weights']))
         print(run.name, metrics, flush=True)
     pd.DataFrame(rows).to_csv('results/metrics.csv', index=False)
     pd.DataFrame(per_class).to_csv('results/per_class.csv', index=False)
+    pd.DataFrame(convergence).to_csv('results/convergence_audit.csv',index=False)
     save_json('results/prediction_provenance.json',provenance)
 
 

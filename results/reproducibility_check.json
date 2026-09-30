@@ -1,0 +1,7 @@
+{
+  "condition": "pretrained_f0.01_s42",
+  "validation_predictions_bitwise_equal": true,
+  "max_probability_difference": 0.0,
+  "checkpoint_tensors_bitwise_equal": true,
+  "scope": "same hardware, pinned environment, fresh independent rerun"
+}

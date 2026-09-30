@@ -1,0 +1,10 @@
+initialization: scratch
+linear_probe: false
+epochs: 100
+patience: 15
+batch_size: 16
+accumulation_steps: 2
+lr: 0.0001
+weight_decay: 0.01
+workers: 0
+amp: true

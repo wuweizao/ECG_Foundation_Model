@@ -34,7 +34,7 @@ def main():
         markdown('### 4. Inspect disease-specific results\nFive independent labels; one ECG can contribute to multiple positive groups.'),
         code("display(Image(filename=str(ROOT / 'figures/per_class.png')))"),
         markdown('## Checks\nAll 26 full-fine-tuning conditions and 7 linear probes must be present. A separate test lock records weights and thresholds before evaluation.'),
-        code("metrics = pd.read_csv(ROOT / 'results/metrics.csv')\nassert len(metrics) == 33\nassert not metrics[['model','fraction','seed']].duplicated().any()\nassert metrics['macro_auroc'].between(0,1).all()\nlock = json.loads((ROOT / 'experiments/test_lock.json').read_text())\nassert len(lock['runs']) == 33\nprint('33 runs verified; test artifacts locked.')"),
+        code("metrics = pd.read_csv(ROOT / 'results/metrics.csv')\nassert len(metrics) == 33\nassert not metrics[['model','fraction','seed']].duplicated().any()\nassert metrics['macro_auroc'].between(0,1).all()\nlock = json.loads((ROOT / 'experiments/test_lock.json').read_text())\nassert sum(r['group']=='main' for r in lock['runs']) == 33\nassert sum(r['group']=='convergence' for r in lock['runs']) == 2\nprint('33 main/probe runs and 2 budget-sensitivity runs locked.')"),
         markdown('## Next Steps\nInterpret label efficiency as a discrete descriptive comparison, not statistical equivalence. Check training-budget diagnostics before claiming convergence. Robustness is post-preprocessing input corruption; patient bootstrap uncertainty is conditional on fitted models. See `experiments/PROTOCOL.md` for limitations.'),
         code("display(json.loads((ROOT / 'results/label_efficiency_gain.json').read_text()))"),
     ]
