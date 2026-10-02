@@ -1,0 +1,37 @@
+{
+  "registered_at_utc": "2026-10-02T16:08:39.881864+00:00",
+  "phase1_commit": "a3b6bc4",
+  "phase1_test_seen": true,
+  "protocol_sha256": "15ad5eeda01c5d488879aaab20d51d8a7f6d371bb571e26c1f1e62ebd293b79f",
+  "plan_sha256": "fbab774c40563307c67a10fd193bf247b353b4463b90cc9f857429c6df228b9b",
+  "code_sha256": {
+    "src/phase2/baseline_head.py": "4fd979016c675adf3bbe1dc7535908c29d688956e2a3c369099ae39d24f47e9a",
+    "src/phase2/features.py": "a7da94d5b1b39b817ff5fb37bfd554711e55ceeeae079912b1605ed06a6f8b18",
+    "src/phase2/models.py": "30d91721b758853af7d3f48b605c308e65662ff2496f668db9213a7a7f1c736d",
+    "src/phase2/register.py": "c3ee2cba897fde15b921a9cd2f894c1b81f47caaccb23158078b8cbe22323e0a",
+    "src/phase2/suite.py": "226fd1ed9e8117c78a7fc05d0937e0e67bbe49d455ada977123c427157d3ffb2",
+    "src/phase2/train.py": "e9013ac1c122989cf519de7c49aa2adc13e26c33d1952cd08d1a6d62a427bb95",
+    "src/phase2/__init__.py": "3d1087502b025427bdd5626832d408db4b17a4921530696be8a920056dff7be4"
+  },
+  "manifest_sha256": {
+    "runs/phase2/manifests/train.csv": "f99c7cfa24c4823befce1d9df550b7004c7efec952e764756d0d40580df1d16a",
+    "runs/phase2/manifests/train_f0.01_s42.csv": "2dbfaae355aaf23d11421ba9f076c7766dcbe2e78eb896e0467a7aec6f791d74",
+    "runs/phase2/manifests/train_f0.01_s52.csv": "ed7d0b69bf07bf3ac8e25348f755a14431ec785e15e3154ecc088ba74a056ff3",
+    "runs/phase2/manifests/train_f0.01_s62.csv": "380777337955c8f077aed0db4e3d011d8b85f68341e03d7ec2f9dbd62c68537f",
+    "runs/phase2/manifests/train_f0.05_s42.csv": "60e82d6f9486df8c30092184e2eac32609408f157b247e06d4bedc9ce19cce9b",
+    "runs/phase2/manifests/train_f0.05_s52.csv": "c7aa2e32566f87a9326c71d2d8ee509f3a9c5b1a412533da15c2496555a69d02",
+    "runs/phase2/manifests/train_f0.05_s62.csv": "858abcd5251d506fb4af3a1e5eaee73e7647f709498bf11bc769a86a00758d8d",
+    "runs/phase2/manifests/train_f0.1_s42.csv": "13fbd55bfbbbe5b562757a2a69953be7cac3f4e9fe189b82fa5624f8b1eb9abd",
+    "runs/phase2/manifests/train_f0.1_s52.csv": "d3af1daed964f704d23273237724006fd5a1b946583ec413bd3902c2c646ad68",
+    "runs/phase2/manifests/train_f0.1_s62.csv": "5affac4f953bc87afb3effdb12c5c1ac250f08f3726c090ea61a646bb1910e53",
+    "runs/phase2/manifests/train_f0.25_s42.csv": "9ddf0a24605d020822b8ef8619f6f65a6e46e161af2ab6271790e7ace25aa524",
+    "runs/phase2/manifests/train_f0.25_s52.csv": "fa9a52e664e19b2c1db3eafec961164151c9b6ac684e36f90c4ce43d006748f4",
+    "runs/phase2/manifests/train_f0.25_s62.csv": "6dd67111ee76f488a5bbe129e7e10e09acabc25b949391d632291ae5950e5b3e",
+    "runs/phase2/manifests/train_f1_s42.csv": "f99c7cfa24c4823befce1d9df550b7004c7efec952e764756d0d40580df1d16a",
+    "runs/phase2/manifests/train_f1_s52.csv": "f99c7cfa24c4823befce1d9df550b7004c7efec952e764756d0d40580df1d16a",
+    "runs/phase2/manifests/train_f1_s62.csv": "f99c7cfa24c4823befce1d9df550b7004c7efec952e764756d0d40580df1d16a",
+    "runs/phase2/manifests/validation.csv": "afea4df75819239f5498239fecd9130cd3d515f15316422cf098935dfc0719bf"
+  },
+  "baseline_commit": "cdbf4e66d7e57d9b6a2657b6024716212b8d0afa",
+  "baseline_sha256": "f1c789bfd0a50789ea9e9da6388fb049801ac58048bfa2955274ced803710928"
+}
