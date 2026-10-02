@@ -7,9 +7,20 @@ import torch
 from torch import nn
 
 
+class FirstMaxPool(nn.Module):
+    """Global max with first-index tie gradients, deterministic on CUDA."""
+    def forward(self,x):
+        return x.max(dim=-1,keepdim=True).values
+
+
 class ConcatPool(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.mp=FirstMaxPool()
+        self.ap=nn.AdaptiveAvgPool1d(1)
+
     def forward(self, x):
-        return torch.cat((x.amax(-1, keepdim=True), x.mean(-1, keepdim=True)), dim=1)
+        return torch.cat((self.mp(x), self.ap(x)), dim=1)
 
 
 class Flatten(nn.Module):

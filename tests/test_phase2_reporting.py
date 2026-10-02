@@ -2,6 +2,7 @@ import json
 import unittest
 from pathlib import Path
 import numpy as np
+import torch
 from src.metrics import compute_metrics
 from src.phase2.report import independent_metrics
 from src.phase2.evaluate import completed_selection
@@ -9,6 +10,17 @@ from src.phase2.register import verify_phase1
 
 
 class PhaseTwoReportingTests(unittest.TestCase):
+    def test_baseline_pool_tie_gradient_matches_upstream(self):
+        from src.phase2.baseline_head import ConcatPool
+        x=torch.tensor([[[2.,2.,1.],[0.,0.,0.]]],requires_grad=True)
+        z=x.detach().clone().requires_grad_()
+        ours=ConcatPool()(x)
+        expected=torch.cat((torch.nn.AdaptiveMaxPool1d(1)(z),torch.nn.AdaptiveAvgPool1d(1)(z)),1)
+        self.assertTrue(torch.equal(ours,expected))
+        ours.sum().backward()
+        expected.sum().backward()
+        self.assertTrue(torch.equal(x.grad,z.grad))
+
     def test_independent_metrics_handle_tied_scores(self):
         rng=np.random.default_rng(14)
         y=rng.integers(0,2,size=(80,5))

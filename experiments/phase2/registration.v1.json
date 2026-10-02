@@ -5,7 +5,7 @@
   "protocol_sha256": "15ad5eeda01c5d488879aaab20d51d8a7f6d371bb571e26c1f1e62ebd293b79f",
   "plan_sha256": "fbab774c40563307c67a10fd193bf247b353b4463b90cc9f857429c6df228b9b",
   "code_sha256": {
-    "src/phase2/baseline_head.py": "bdb9fca732477abe36b96c825e260d6796eddb6af23a5ad38e757a99d75879ed",
+    "src/phase2/baseline_head.py": "4fd979016c675adf3bbe1dc7535908c29d688956e2a3c369099ae39d24f47e9a",
     "src/phase2/features.py": "a7da94d5b1b39b817ff5fb37bfd554711e55ceeeae079912b1605ed06a6f8b18",
     "src/phase2/models.py": "30d91721b758853af7d3f48b605c308e65662ff2496f668db9213a7a7f1c736d",
     "src/phase2/register.py": "c3ee2cba897fde15b921a9cd2f894c1b81f47caaccb23158078b8cbe22323e0a",
@@ -33,12 +33,5 @@
     "runs/phase2/manifests/validation.csv": "afea4df75819239f5498239fecd9130cd3d515f15316422cf098935dfc0719bf"
   },
   "baseline_commit": "cdbf4e66d7e57d9b6a2657b6024716212b8d0afa",
-  "baseline_sha256": "f1c789bfd0a50789ea9e9da6388fb049801ac58048bfa2955274ced803710928",
-  "implementation_amendments": [
-    {
-      "record": "experiments/phase2/AMENDMENT_01.md",
-      "sha256": "1c912d06bb82047c595c5bc622f818bea90a292360478077ccc8a8cc90a42df4",
-      "prior_registration_sha256": "659d9e2e92c8eaac72015aa713e98e46a02fc4f7743dac82ef72b0dcedc4141e"
-    }
-  ]
+  "baseline_sha256": "f1c789bfd0a50789ea9e9da6388fb049801ac58048bfa2955274ced803710928"
 }
