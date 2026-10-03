@@ -1,0 +1,1163 @@
+[
+  {
+    "policy": "budgeted",
+    "fraction": 0.01,
+    "seed": 42,
+    "train": {
+      "patients": 149,
+      "records": 164,
+      "positives": {
+        "NORM": 61,
+        "MI": 46,
+        "STTC": 50,
+        "CD": 34,
+        "HYP": 16
+      },
+      "negatives": {
+        "NORM": 103,
+        "MI": 118,
+        "STTC": 114,
+        "CD": 130,
+        "HYP": 148
+      }
+    },
+    "validation": {
+      "patients": 19,
+      "records": 19,
+      "positives": {
+        "NORM": 8,
+        "MI": 4,
+        "STTC": 5,
+        "CD": 4,
+        "HYP": 2
+      },
+      "negatives": {
+        "NORM": 11,
+        "MI": 15,
+        "STTC": 14,
+        "CD": 15,
+        "HYP": 17
+      }
+    },
+    "total_labeled_patients": 168,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.01,
+    "seed": 42,
+    "train": {
+      "patients": 149,
+      "records": 164,
+      "positives": {
+        "NORM": 61,
+        "MI": 46,
+        "STTC": 50,
+        "CD": 34,
+        "HYP": 16
+      },
+      "negatives": {
+        "NORM": 103,
+        "MI": 118,
+        "STTC": 114,
+        "CD": 130,
+        "HYP": 148
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2066,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.01,
+    "seed": 52,
+    "train": {
+      "patients": 149,
+      "records": 167,
+      "positives": {
+        "NORM": 79,
+        "MI": 35,
+        "STTC": 40,
+        "CD": 38,
+        "HYP": 18
+      },
+      "negatives": {
+        "NORM": 88,
+        "MI": 132,
+        "STTC": 127,
+        "CD": 129,
+        "HYP": 149
+      }
+    },
+    "validation": {
+      "patients": 19,
+      "records": 20,
+      "positives": {
+        "NORM": 11,
+        "MI": 3,
+        "STTC": 5,
+        "CD": 4,
+        "HYP": 2
+      },
+      "negatives": {
+        "NORM": 9,
+        "MI": 17,
+        "STTC": 15,
+        "CD": 16,
+        "HYP": 18
+      }
+    },
+    "total_labeled_patients": 168,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.01,
+    "seed": 52,
+    "train": {
+      "patients": 149,
+      "records": 167,
+      "positives": {
+        "NORM": 79,
+        "MI": 35,
+        "STTC": 40,
+        "CD": 38,
+        "HYP": 18
+      },
+      "negatives": {
+        "NORM": 88,
+        "MI": 132,
+        "STTC": 127,
+        "CD": 129,
+        "HYP": 149
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2066,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.01,
+    "seed": 62,
+    "train": {
+      "patients": 149,
+      "records": 179,
+      "positives": {
+        "NORM": 77,
+        "MI": 57,
+        "STTC": 42,
+        "CD": 37,
+        "HYP": 17
+      },
+      "negatives": {
+        "NORM": 102,
+        "MI": 122,
+        "STTC": 137,
+        "CD": 142,
+        "HYP": 162
+      }
+    },
+    "validation": {
+      "patients": 19,
+      "records": 20,
+      "positives": {
+        "NORM": 12,
+        "MI": 6,
+        "STTC": 3,
+        "CD": 2,
+        "HYP": 1
+      },
+      "negatives": {
+        "NORM": 8,
+        "MI": 14,
+        "STTC": 17,
+        "CD": 18,
+        "HYP": 19
+      }
+    },
+    "total_labeled_patients": 168,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.01,
+    "seed": 62,
+    "train": {
+      "patients": 149,
+      "records": 179,
+      "positives": {
+        "NORM": 77,
+        "MI": 57,
+        "STTC": 42,
+        "CD": 37,
+        "HYP": 17
+      },
+      "negatives": {
+        "NORM": 102,
+        "MI": 122,
+        "STTC": 137,
+        "CD": 142,
+        "HYP": 162
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2066,
+    "nominal_budget_patients": 168
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.05,
+    "seed": 42,
+    "train": {
+      "patients": 742,
+      "records": 841,
+      "positives": {
+        "NORM": 342,
+        "MI": 225,
+        "STTC": 210,
+        "CD": 194,
+        "HYP": 83
+      },
+      "negatives": {
+        "NORM": 499,
+        "MI": 616,
+        "STTC": 631,
+        "CD": 647,
+        "HYP": 758
+      }
+    },
+    "validation": {
+      "patients": 95,
+      "records": 103,
+      "positives": {
+        "NORM": 48,
+        "MI": 24,
+        "STTC": 24,
+        "CD": 26,
+        "HYP": 8
+      },
+      "negatives": {
+        "NORM": 55,
+        "MI": 79,
+        "STTC": 79,
+        "CD": 77,
+        "HYP": 95
+      }
+    },
+    "total_labeled_patients": 837,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.05,
+    "seed": 42,
+    "train": {
+      "patients": 742,
+      "records": 841,
+      "positives": {
+        "NORM": 342,
+        "MI": 225,
+        "STTC": 210,
+        "CD": 194,
+        "HYP": 83
+      },
+      "negatives": {
+        "NORM": 499,
+        "MI": 616,
+        "STTC": 631,
+        "CD": 647,
+        "HYP": 758
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2659,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.05,
+    "seed": 52,
+    "train": {
+      "patients": 742,
+      "records": 865,
+      "positives": {
+        "NORM": 382,
+        "MI": 238,
+        "STTC": 210,
+        "CD": 187,
+        "HYP": 106
+      },
+      "negatives": {
+        "NORM": 483,
+        "MI": 627,
+        "STTC": 655,
+        "CD": 678,
+        "HYP": 759
+      }
+    },
+    "validation": {
+      "patients": 95,
+      "records": 106,
+      "positives": {
+        "NORM": 48,
+        "MI": 25,
+        "STTC": 22,
+        "CD": 24,
+        "HYP": 12
+      },
+      "negatives": {
+        "NORM": 58,
+        "MI": 81,
+        "STTC": 84,
+        "CD": 82,
+        "HYP": 94
+      }
+    },
+    "total_labeled_patients": 837,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.05,
+    "seed": 52,
+    "train": {
+      "patients": 742,
+      "records": 865,
+      "positives": {
+        "NORM": 382,
+        "MI": 238,
+        "STTC": 210,
+        "CD": 187,
+        "HYP": 106
+      },
+      "negatives": {
+        "NORM": 483,
+        "MI": 627,
+        "STTC": 655,
+        "CD": 678,
+        "HYP": 759
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2659,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.05,
+    "seed": 62,
+    "train": {
+      "patients": 742,
+      "records": 864,
+      "positives": {
+        "NORM": 389,
+        "MI": 242,
+        "STTC": 206,
+        "CD": 169,
+        "HYP": 91
+      },
+      "negatives": {
+        "NORM": 475,
+        "MI": 622,
+        "STTC": 658,
+        "CD": 695,
+        "HYP": 773
+      }
+    },
+    "validation": {
+      "patients": 95,
+      "records": 102,
+      "positives": {
+        "NORM": 46,
+        "MI": 24,
+        "STTC": 23,
+        "CD": 19,
+        "HYP": 11
+      },
+      "negatives": {
+        "NORM": 56,
+        "MI": 78,
+        "STTC": 79,
+        "CD": 83,
+        "HYP": 91
+      }
+    },
+    "total_labeled_patients": 837,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.05,
+    "seed": 62,
+    "train": {
+      "patients": 742,
+      "records": 864,
+      "positives": {
+        "NORM": 389,
+        "MI": 242,
+        "STTC": 206,
+        "CD": 169,
+        "HYP": 91
+      },
+      "negatives": {
+        "NORM": 475,
+        "MI": 622,
+        "STTC": 658,
+        "CD": 695,
+        "HYP": 773
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 2659,
+    "nominal_budget_patients": 837
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.1,
+    "seed": 42,
+    "train": {
+      "patients": 1483,
+      "records": 1687,
+      "positives": {
+        "NORM": 716,
+        "MI": 443,
+        "STTC": 419,
+        "CD": 398,
+        "HYP": 190
+      },
+      "negatives": {
+        "NORM": 971,
+        "MI": 1244,
+        "STTC": 1268,
+        "CD": 1289,
+        "HYP": 1497
+      }
+    },
+    "validation": {
+      "patients": 191,
+      "records": 205,
+      "positives": {
+        "NORM": 91,
+        "MI": 51,
+        "STTC": 46,
+        "CD": 54,
+        "HYP": 24
+      },
+      "negatives": {
+        "NORM": 114,
+        "MI": 154,
+        "STTC": 159,
+        "CD": 151,
+        "HYP": 181
+      }
+    },
+    "total_labeled_patients": 1674,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.1,
+    "seed": 42,
+    "train": {
+      "patients": 1483,
+      "records": 1687,
+      "positives": {
+        "NORM": 716,
+        "MI": 443,
+        "STTC": 419,
+        "CD": 398,
+        "HYP": 190
+      },
+      "negatives": {
+        "NORM": 971,
+        "MI": 1244,
+        "STTC": 1268,
+        "CD": 1289,
+        "HYP": 1497
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 3400,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.1,
+    "seed": 52,
+    "train": {
+      "patients": 1483,
+      "records": 1718,
+      "positives": {
+        "NORM": 783,
+        "MI": 429,
+        "STTC": 405,
+        "CD": 382,
+        "HYP": 223
+      },
+      "negatives": {
+        "NORM": 935,
+        "MI": 1289,
+        "STTC": 1313,
+        "CD": 1336,
+        "HYP": 1495
+      }
+    },
+    "validation": {
+      "patients": 191,
+      "records": 217,
+      "positives": {
+        "NORM": 103,
+        "MI": 41,
+        "STTC": 55,
+        "CD": 40,
+        "HYP": 24
+      },
+      "negatives": {
+        "NORM": 114,
+        "MI": 176,
+        "STTC": 162,
+        "CD": 177,
+        "HYP": 193
+      }
+    },
+    "total_labeled_patients": 1674,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.1,
+    "seed": 52,
+    "train": {
+      "patients": 1483,
+      "records": 1718,
+      "positives": {
+        "NORM": 783,
+        "MI": 429,
+        "STTC": 405,
+        "CD": 382,
+        "HYP": 223
+      },
+      "negatives": {
+        "NORM": 935,
+        "MI": 1289,
+        "STTC": 1313,
+        "CD": 1336,
+        "HYP": 1495
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 3400,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.1,
+    "seed": 62,
+    "train": {
+      "patients": 1483,
+      "records": 1713,
+      "positives": {
+        "NORM": 763,
+        "MI": 473,
+        "STTC": 397,
+        "CD": 364,
+        "HYP": 196
+      },
+      "negatives": {
+        "NORM": 950,
+        "MI": 1240,
+        "STTC": 1316,
+        "CD": 1349,
+        "HYP": 1517
+      }
+    },
+    "validation": {
+      "patients": 191,
+      "records": 211,
+      "positives": {
+        "NORM": 87,
+        "MI": 52,
+        "STTC": 51,
+        "CD": 48,
+        "HYP": 26
+      },
+      "negatives": {
+        "NORM": 124,
+        "MI": 159,
+        "STTC": 160,
+        "CD": 163,
+        "HYP": 185
+      }
+    },
+    "total_labeled_patients": 1674,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.1,
+    "seed": 62,
+    "train": {
+      "patients": 1483,
+      "records": 1713,
+      "positives": {
+        "NORM": 763,
+        "MI": 473,
+        "STTC": 397,
+        "CD": 364,
+        "HYP": 196
+      },
+      "negatives": {
+        "NORM": 950,
+        "MI": 1240,
+        "STTC": 1316,
+        "CD": 1349,
+        "HYP": 1517
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 3400,
+    "nominal_budget_patients": 1674
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.25,
+    "seed": 42,
+    "train": {
+      "patients": 3706,
+      "records": 4252,
+      "positives": {
+        "NORM": 1862,
+        "MI": 1083,
+        "STTC": 1017,
+        "CD": 1004,
+        "HYP": 482
+      },
+      "negatives": {
+        "NORM": 2390,
+        "MI": 3169,
+        "STTC": 3235,
+        "CD": 3248,
+        "HYP": 3770
+      }
+    },
+    "validation": {
+      "patients": 479,
+      "records": 536,
+      "positives": {
+        "NORM": 245,
+        "MI": 135,
+        "STTC": 137,
+        "CD": 118,
+        "HYP": 60
+      },
+      "negatives": {
+        "NORM": 291,
+        "MI": 401,
+        "STTC": 399,
+        "CD": 418,
+        "HYP": 476
+      }
+    },
+    "total_labeled_patients": 4185,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.25,
+    "seed": 42,
+    "train": {
+      "patients": 3706,
+      "records": 4252,
+      "positives": {
+        "NORM": 1862,
+        "MI": 1083,
+        "STTC": 1017,
+        "CD": 1004,
+        "HYP": 482
+      },
+      "negatives": {
+        "NORM": 2390,
+        "MI": 3169,
+        "STTC": 3235,
+        "CD": 3248,
+        "HYP": 3770
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 5623,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.25,
+    "seed": 52,
+    "train": {
+      "patients": 3706,
+      "records": 4297,
+      "positives": {
+        "NORM": 1905,
+        "MI": 1119,
+        "STTC": 1050,
+        "CD": 944,
+        "HYP": 561
+      },
+      "negatives": {
+        "NORM": 2392,
+        "MI": 3178,
+        "STTC": 3247,
+        "CD": 3353,
+        "HYP": 3736
+      }
+    },
+    "validation": {
+      "patients": 479,
+      "records": 542,
+      "positives": {
+        "NORM": 239,
+        "MI": 134,
+        "STTC": 148,
+        "CD": 118,
+        "HYP": 66
+      },
+      "negatives": {
+        "NORM": 303,
+        "MI": 408,
+        "STTC": 394,
+        "CD": 424,
+        "HYP": 476
+      }
+    },
+    "total_labeled_patients": 4185,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.25,
+    "seed": 52,
+    "train": {
+      "patients": 3706,
+      "records": 4297,
+      "positives": {
+        "NORM": 1905,
+        "MI": 1119,
+        "STTC": 1050,
+        "CD": 944,
+        "HYP": 561
+      },
+      "negatives": {
+        "NORM": 2392,
+        "MI": 3178,
+        "STTC": 3247,
+        "CD": 3353,
+        "HYP": 3736
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 5623,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "budgeted",
+    "fraction": 0.25,
+    "seed": 62,
+    "train": {
+      "patients": 3706,
+      "records": 4312,
+      "positives": {
+        "NORM": 1912,
+        "MI": 1148,
+        "STTC": 1062,
+        "CD": 954,
+        "HYP": 553
+      },
+      "negatives": {
+        "NORM": 2400,
+        "MI": 3164,
+        "STTC": 3250,
+        "CD": 3358,
+        "HYP": 3759
+      }
+    },
+    "validation": {
+      "patients": 479,
+      "records": 536,
+      "positives": {
+        "NORM": 237,
+        "MI": 140,
+        "STTC": 126,
+        "CD": 117,
+        "HYP": 71
+      },
+      "negatives": {
+        "NORM": 299,
+        "MI": 396,
+        "STTC": 410,
+        "CD": 419,
+        "HYP": 465
+      }
+    },
+    "total_labeled_patients": 4185,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "full_validation_control",
+    "fraction": 0.25,
+    "seed": 62,
+    "train": {
+      "patients": 3706,
+      "records": 4312,
+      "positives": {
+        "NORM": 1912,
+        "MI": 1148,
+        "STTC": 1062,
+        "CD": 954,
+        "HYP": 553
+      },
+      "negatives": {
+        "NORM": 2400,
+        "MI": 3164,
+        "STTC": 3250,
+        "CD": 3358,
+        "HYP": 3759
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 5623,
+    "nominal_budget_patients": 4185
+  },
+  {
+    "policy": "shared_full",
+    "fraction": 1.0,
+    "seed": 42,
+    "train": {
+      "patients": 14823,
+      "records": 17084,
+      "positives": {
+        "NORM": 7596,
+        "MI": 4379,
+        "STTC": 4186,
+        "CD": 3907,
+        "HYP": 2119
+      },
+      "negatives": {
+        "NORM": 9488,
+        "MI": 12705,
+        "STTC": 12898,
+        "CD": 13177,
+        "HYP": 14965
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 16740,
+    "nominal_budget_patients": 16740
+  },
+  {
+    "policy": "shared_full",
+    "fraction": 1.0,
+    "seed": 52,
+    "train": {
+      "patients": 14823,
+      "records": 17084,
+      "positives": {
+        "NORM": 7596,
+        "MI": 4379,
+        "STTC": 4186,
+        "CD": 3907,
+        "HYP": 2119
+      },
+      "negatives": {
+        "NORM": 9488,
+        "MI": 12705,
+        "STTC": 12898,
+        "CD": 13177,
+        "HYP": 14965
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 16740,
+    "nominal_budget_patients": 16740
+  },
+  {
+    "policy": "shared_full",
+    "fraction": 1.0,
+    "seed": 62,
+    "train": {
+      "patients": 14823,
+      "records": 17084,
+      "positives": {
+        "NORM": 7596,
+        "MI": 4379,
+        "STTC": 4186,
+        "CD": 3907,
+        "HYP": 2119
+      },
+      "negatives": {
+        "NORM": 9488,
+        "MI": 12705,
+        "STTC": 12898,
+        "CD": 13177,
+        "HYP": 14965
+      }
+    },
+    "validation": {
+      "patients": 1917,
+      "records": 2146,
+      "positives": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      },
+      "negatives": {
+        "NORM": 1191,
+        "MI": 1606,
+        "STTC": 1618,
+        "CD": 1651,
+        "HYP": 1878
+      }
+    },
+    "total_labeled_patients": 16740,
+    "nominal_budget_patients": 16740
+  }
+]
