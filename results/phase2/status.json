@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "training_attempts": 45,
+  "selected_new_models": 33,
+  "comparison_rows": 45,
+  "phase1_unchanged": true,
+  "independent_external_validation": false
+}

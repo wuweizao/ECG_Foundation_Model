@@ -1,0 +1,8 @@
+{
+  "rows_checked": 45,
+  "unique_prediction_files": 42,
+  "max_absolute_discrepancy": 4.440892098500626e-16,
+  "rank_auroc": true,
+  "stepwise_ap": true,
+  "confusion_metrics": true
+}

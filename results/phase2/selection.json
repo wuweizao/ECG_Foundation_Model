@@ -1,0 +1,362 @@
+{
+  "scratch_f0.01": {
+    "winner": "search_scratch_f0.01_s42_lr0.0001",
+    "lr": 0.0001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_scratch_f0.01_s42_lr1e-05",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.703350101935753
+      },
+      {
+        "spec": {
+          "id": "search_scratch_f0.01_s42_lr0.0001",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.8252926972415005
+      },
+      {
+        "spec": {
+          "id": "search_scratch_f0.01_s42_lr0.001",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.8228600246623294
+      }
+    ]
+  },
+  "pretrained_f0.01": {
+    "winner": "search_pretrained_f0.01_s42_lr0.001",
+    "lr": 0.001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_pretrained_f0.01_s42_lr1e-05",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.8272366116456731
+      },
+      {
+        "spec": {
+          "id": "search_pretrained_f0.01_s42_lr0.0001",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.848328937984683
+      },
+      {
+        "spec": {
+          "id": "search_pretrained_f0.01_s42_lr0.001",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.8584677029251896
+      }
+    ]
+  },
+  "xresnet1d101_f0.01": {
+    "winner": "search_xresnet1d101_f0.01_s42_lr0.001",
+    "lr": 0.001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f0.01_s42_lr1e-05",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.5243022236905672
+      },
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f0.01_s42_lr0.0001",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.7935810725168047
+      },
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f0.01_s42_lr0.001",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 0.01,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.8139241435440322
+      }
+    ]
+  },
+  "scratch_f1": {
+    "winner": "search_scratch_f1_s42_lr0.001",
+    "lr": 0.001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_scratch_f1_s42_lr1e-05",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.898137156854889
+      },
+      {
+        "spec": {
+          "id": "search_scratch_f1_s42_lr0.0001",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9090954789829837
+      },
+      {
+        "spec": {
+          "id": "search_scratch_f1_s42_lr0.001",
+          "group": "search",
+          "family": "scratch",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.916759662221917
+      }
+    ]
+  },
+  "pretrained_f1": {
+    "winner": "search_pretrained_f1_s42_lr0.0001",
+    "lr": 0.0001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_pretrained_f1_s42_lr1e-05",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9234449124219463
+      },
+      {
+        "spec": {
+          "id": "search_pretrained_f1_s42_lr0.0001",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9271622646894535
+      },
+      {
+        "spec": {
+          "id": "search_pretrained_f1_s42_lr0.001",
+          "group": "search",
+          "family": "pretrained",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9226099301387898
+      }
+    ]
+  },
+  "xresnet1d101_f1": {
+    "winner": "search_xresnet1d101_f1_s42_lr0.001",
+    "lr": 0.001,
+    "candidates": [
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f1_s42_lr1e-05",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 1e-05,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9039386402566738
+      },
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f1_s42_lr0.0001",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.0001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9124627306739367
+      },
+      {
+        "spec": {
+          "id": "search_xresnet1d101_f1_s42_lr0.001",
+          "group": "search",
+          "family": "xresnet1d101",
+          "fraction": 1.0,
+          "seed": 42,
+          "lr": 0.001,
+          "epochs": 60,
+          "patience": 12,
+          "batch_size": 16,
+          "accumulation_steps": 2,
+          "weight_decay": 0.01,
+          "amp": true,
+          "workers": 0
+        },
+        "score": 0.9186925887181528
+      }
+    ]
+  }
+}
